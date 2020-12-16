@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8BC34A"
+    tools:context=".AloeActivity">
+
+    <TextView
+        android:id="@+id/textView495"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Soil Requirements : "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.055"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.353" />
+
+    <TextView
+        android:id="@+id/textView496"
+        android:layout_width="315dp"
+        android:layout_height="71dp"
+        android:text="Well-drained pot, cactus potting mix or regualar potting soil that has been amended with additional perlite or building sand. PH 7.0-8.5."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.166"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.409" />
+
+    <TextView
+        android:id="@+id/textView497"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sunlight Requirements : "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.061"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView498"
+        android:layout_width="168dp"
+        android:layout_height="27dp"
+        android:text="6 hours of direct sunlight."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.065"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.532" />
+
+    <TextView
+        android:id="@+id/textView499"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Water Requirements : "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.054"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.587" />
+
+    <TextView
+        android:id="@+id/textView500"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Water every 3 weeks. "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.058"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.613" />
+
+    <TextView
+        android:id="@+id/textView501"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hardiness Zone : 10-11"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.056"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.676" />
+
+    <ImageView
+        android:id="@+id/imageView92"
+        android:layout_width="341dp"
+        android:layout_height="239dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/download__71_" />
+</androidx.constraintlayout.widget.ConstraintLayout>
