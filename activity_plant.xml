@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00FFFFFF"
+    tools:context=".PlantActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <GridLayout
+            android:layout_width="372dp"
+            android:layout_height="2215dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="5dp"
+            android:background="@android:color/holo_green_light"
+            android:columnCount="2"
+            android:columnOrderPreserved="false"
+            android:rowCount="12">
+
+            <ImageButton
+                android:id="@+id/Chrysbutton"
+                android:layout_width="194dp"
+                android:layout_height="185dp"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:adjustViewBounds="true"
+                android:background="#00FFFFFF"
+                android:scaleType="centerInside"
+                android:tint="#0AFFFFFF"
+                app:srcCompat="@drawable/download" />
+
+            <ImageButton
+                android:id="@+id/Spiderbutton"
+                android:layout_width="194dp"
+                android:layout_height="185dp"
+                android:layout_row="0"
+                android:layout_column="1"
+                android:adjustViewBounds="true"
+                android:background="#00FFFFFF"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/download__7_" />
+
+            <ImageButton
+                android:id="@+id/Ficusbutton"
+                android:layout_width="194dp"
+                android:layout_height="185dp"
+                android:layout_row="1"
+                android:layout_column="0"
+                android:adjustViewBounds="true"
+                android:background="#00FFFFFF"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/download__8_" />
+
+            <ImageButton
+                android:id="@+id/Redbutton"
+                android:layout_width="195dp"
+                android:layout_height="185dp"
+                android:layout_row="1"
+                android:layout_column="1"
+                android:adjustViewBounds="true"
+                android:background="#00FFFFFF"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/download__9_" />
+
+            <ImageButton
+                android:id="@+id/button5"
+                android:layout_width="194dp"
+                android:layout_height="185dp"
+                android:layout_row="2"
+                android:layout_column="0"
+                android:adjustViewBounds="true"
+                android:background="#00FFFFFF"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/download__10_" />
+
+            <ImageButton
+                android:id="@+id/Bostonbutton"
+                android:layout_width="194dp"
+                android:layout_height="185dp"
+                android:layout_row="2"
+                android:layout_column="1"
+                android:adjustViewBounds="true"
+                android:background="#00FFFFFF"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/download__11_" />
+
+            <ImageButton
+                android:id="@+id/Goldenbutton"
+                android:layout_width="194dp"
+                android:layout_height="185dp"
+                android:layout_row="3"
+                android:layout_column="0"
+                android:adjustViewBounds="true"
+                android:background="#00FFFFFF"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/download__12_" />
+
+            <ImageButton
+                android:id="@+id/Snakebutton"
+                android:layout_width="194dp"
+                android:layout_height="185dp"
+                android:layout_row="3"
+                android:layout_column="1"
+                android:adjustViewBounds="true"
+                android:background="#00FFFFFF"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/download__13_" />
+
+            <ImageButton
+                android:id="@+id/Bamboobutton"
+                android:layout_width="194dp"
+                android:layout_height="185dp"
+                android:layout_row="4"
+                android:layout_column="0"
+                android:adjustViewBounds="true"
+                android:background="#00FFFFFF"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/download__14_" />
+
+            <ImageButton
+                android:id="@+id/Rubberbutton"
+                android:layout_width="194dp"
+                android:layout_height="185dp"
+                android:layout_row="4"
+                android:layout_column="1"
+                android:adjustViewBounds="true"
+                android:background="#00FFFFFF"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/download__15_" />
+
+            <ImageButton
+                android:id="@+id/kallanchebutton"
+                android:layout_width="194dp"
+                android:layout_height="185dp"
+                android:layout_row="5"
+                android:layout_column="0"
+                android:adjustViewBounds="true"
+                android:background="#00FFFFFF"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/download__16_" />
+
+            <ImageButton
+                android:id="@+id/Moneybutton"
+                android:layout_width="194dp"
+                android:layout_height="185dp"
+                android:layout_row="5"
+                android:layout_column="1"
+                android:adjustViewBounds="true"
+                android:background="#00FFFFFF"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/download__17_" />
+
+            <ImageButton
+                android:id="@+id/Englishbutton"
+                android:layout_width="194dp"
+                android:layout_height="185dp"
+                android:layout_row="6"
+                android:layout_column="0"
+                android:adjustViewBounds="true"
+                android:background="#00FFFFFF"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/download__18_" />
+
+            <ImageButton
+                android:id="@+id/Chinesebutton"
+                android:layout_width="194dp"
+                android:layout_height="185dp"
+                android:layout_row="6"
+                android:layout_column="1"
+                android:adjustViewBounds="true"
+                android:background="#00FFFFFF"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/download__19_" />
+
+            <ImageButton
+                android:id="@+id/HeartLeafbutton"
+                android:layout_width="194dp"
+                android:layout_height="185dp"
+                android:layout_row="7"
+                android:layout_column="0"
+                android:adjustViewBounds="true"
+                android:background="#00FFFFFF"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/download__20_" />
+
+            <ImageButton
+                android:id="@+id/Arecabutton"
+                android:layout_width="194dp"
+                android:layout_height="185dp"
+                android:layout_row="7"
+                android:layout_column="1"
+                android:adjustViewBounds="true"
+                android:background="#00FFFFFF"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/download__21_" />
+
+            <ImageButton
+                android:id="@+id/Dieffbutton"
+                android:layout_width="194dp"
+                android:layout_height="185dp"
+                android:layout_row="8"
+                android:layout_column="0"
+                android:adjustViewBounds="true"
+                android:background="#00FFFFFF"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/download__22_" />
+
+            <ImageButton
+                android:id="@+id/peperbutton"
+                android:layout_width="194dp"
+                android:layout_height="185dp"
+                android:layout_row="8"
+                android:layout_column="1"
+                android:adjustViewBounds="true"
+                android:background="#00FFFFFF"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/download__23_" />
+
+            <ImageButton
+                android:id="@+id/warbutton"
+                android:layout_width="194dp"
+                android:layout_height="185dp"
+                android:layout_row="9"
+                android:layout_column="0"
+                android:adjustViewBounds="true"
+                android:background="#00FFFFFF"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/download__24_" />
+
+            <ImageButton
+                android:id="@+id/Fiddlebutton"
+                android:layout_width="194dp"
+                android:layout_height="185dp"
+                android:layout_row="9"
+                android:layout_column="1"
+                android:adjustViewBounds="true"
+                android:background="#00FFFFFF"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/download__25_" />
+
+            <ImageButton
+                android:id="@+id/Gerberbutton"
+                android:layout_width="194dp"
+                android:layout_height="185dp"
+                android:layout_row="10"
+                android:layout_column="0"
+                android:adjustViewBounds="true"
+                android:background="#00FFFFFF"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/download__26_" />
+
+            <ImageButton
+                android:id="@+id/Dwarfbutton"
+                android:layout_width="194dp"
+                android:layout_height="185dp"
+                android:layout_row="10"
+                android:layout_column="1"
+                android:adjustViewBounds="true"
+                android:background="#00FFFFFF"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/download__27_" />
+
+            <ImageButton
+                android:id="@+id/umbrellabutton"
+                android:layout_width="194dp"
+                android:layout_height="185dp"
+                android:layout_row="11"
+                android:layout_column="0"
+                android:adjustViewBounds="true"
+                android:background="#00FFFFFF"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/download__28_" />
+
+            <ImageButton
+                android:id="@+id/Waxbutton"
+                android:layout_width="194dp"
+                android:layout_height="185dp"
+                android:layout_row="11"
+                android:layout_column="1"
+                android:adjustViewBounds="true"
+                android:background="#00FFFFFF"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/download__29_" />
+        </GridLayout>
+
+
+    </LinearLayout>
+
+
+</ScrollView>
+
